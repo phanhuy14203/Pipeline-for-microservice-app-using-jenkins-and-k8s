@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Translation & Sentiment Analysis</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Translation & Sentiment Analysis</h1>
+        <textarea id="inputText" placeholder="Enter text here..."></textarea>
+        <button onclick="analyzeAndTranslateText()">Translate & Analyze</button>
+        <div class="result">
+            <h3>Translation:</h3>
+            <p id="translatedText">Awaiting translation...</p>
+            <h3>Sentiment Rating:</h3>
+            <p id="sentimentRating">Awaiting sentiment analysis...</p>
+        </div>
+        <div class="explanation">
+            <h4>Explanation:</h4>
+            <p><strong>Polarity</strong>:ranging from -1 (very negative) to +1 (very positive).</p>
+            <p><strong>Subjectivity</strong>: ranging from 0 (very objective) to 1 (very subjective).</p>
+        </div>
+        
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
